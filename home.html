@@ -1,7 +1,39 @@
 <DOCTYPE html>
 <html>
 <head>
+  <style>
+    #nav {
+display:table; /* centers modern browsers */
+margin:0 auto; /* centers modern browsers */
+text-align:center; /* centers IE6/7 */
+}
+#nav ul {
+list-style:none;
+display:inline-block; /* IE6/7 haslayout trip-switch */
+}
+#nav ul {
+display:inline; /* IE6/7 haslayout trip-switch, and IE6/7 only need ul to be display inline, yet does no harm to others */
+}
+#nav li {
+display:inline;
+}
+#nav a {
+float:left;
+text-decoration:none; 
+padding:0 30px; /* variable width */
+}
+  </style>
 <link rel="stylesheet" type="text/css" href="style.css">
+  <h1 class="center"> TeamExeo</h1>
+<div id="nav">
+<ul>
+  <li><a href="#">HOME</a></li>
+  <li><a href="#">CAPABILITIES</a></li>
+  <li><a href="#">ABOUT US</a></li>
+  <li><a href="#">RFQ</a></li>
+  <li><a href="#">CONTACT US</a></li>
+</ul>
+</div>
 </head>
 <body>
-  <h1 class="center"> TeamExeo</h1>
+
